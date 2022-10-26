@@ -1,0 +1,5 @@
+let Abs N =
+    N < 0 -> 'Negative' | 'Positive'
+in
+Print(Abs (-3))
+//Prints Negative
