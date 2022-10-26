@@ -1,0 +1,5 @@
+let rec sub s =  s eq '' -> '' | Conc (sub (Stern s)) (Stem s)
+within
+palindrome s = not Isstring s-> 'error'| s eq sub s
+in 
+Print (palindrome '1234321', palindrome '123')
