@@ -1,3 +1,0 @@
-let rec f n = n eq 1 -> 0  | f (n-1) + n 
-in
-Print ( f 4 )
