@@ -1,5 +1,4 @@
-let Abs N =
-    (N/2) eq ((N-1)/2) -> 'Odd' | 'Even'
+let findOddEven N = (N/2) eq ((N-1)/2) -> 'Odd' | 'Even'
 in
-Print(Abs (157))
-//Prints Odd
+Print(findOddEven (157))
+///Prints Odd

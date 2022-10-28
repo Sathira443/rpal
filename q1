@@ -1,5 +1,5 @@
-let Abs N =
+let findLessThanZero N =
     N < 0 -> 'Negative' | 'Positive'
 in
-Print(Abs (-3))
+Print(findLessThanZero (-3))
 //Prints Negative

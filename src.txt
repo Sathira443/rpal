@@ -1,1 +1,5 @@
-let X=3 in Print(X)
+let rec Fact n =
+    n eq 1 -> 1
+        | n * Fact (n-1)
+in
+Print (Fact 3)

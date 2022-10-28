@@ -1,4 +1,5 @@
-let rec Fact n =
-    n eq 1 -> 1 | n * Fact (n-1)
+let rec findFactorial n =
+    n eq 1 -> 1 | n * findFactorial (n-1)
 in
-Print (Fact 6)
+Print (findFactorial 6)
+// Prints 720
