@@ -1,5 +1,5 @@
-let findLessThanZero N =
-    N < 0 -> 'Negative' | 'Positive'
+let findNegPos N =
+    N eq 0 -> 'Neither Negative and Positive' | N < 0 -> 'Negative' | 'Positive'
 in
-Print(findLessThanZero (-3))
+Print(findNegPos (-3))
 //Prints Negative
